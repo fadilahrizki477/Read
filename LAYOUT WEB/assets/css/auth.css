@@ -1,0 +1,101 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #1a1a1a, #000);
+  font-family: "Segoe UI", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* ===== AUTH BOX ===== */
+.auth-box {
+  width: 360px;
+  background: #1b1b1b;
+  padding: 35px 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+  text-align: center;
+}
+
+/* ===== TITLE ===== */
+.auth-box h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+/* ===== INPUT ===== */
+.auth-box input {
+  width: 100%;
+  padding: 14px 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.auth-box input::placeholder {
+  color: #666;
+}
+
+/* ===== BUTTON ===== */
+.auth-box button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 5px;
+  background: #c49b63;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  transition: background 0.3s ease;
+}
+
+.auth-box button:hover {
+  background: #b38a52;
+}
+
+/* ===== FOOT TEXT ===== */
+.auth-box p {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.auth-box p a {
+  color: #c49b63;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-box p a:hover {
+  text-decoration: underline;
+}
+
+/* ===== BACK TO HOME (BOTTOM) ===== */
+.back-wrapper.bottom {
+  margin-top: 22px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.back-home {
+  font-size: 13px;
+  color: #c49b63;
+  text-decoration: none;
+}
+
+.back-home:hover {
+  text-decoration: underline;
+}

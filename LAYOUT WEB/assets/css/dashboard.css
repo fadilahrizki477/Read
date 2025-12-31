@@ -1,0 +1,23 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.dashboard {
+  margin-top: 120px;
+}
+
+.dashboard h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.dashboard a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #c49b63;
+  text-decoration: none;
+  font-weight: bold;
+}
