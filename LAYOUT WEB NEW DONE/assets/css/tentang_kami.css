@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.gray {
+    background: #f9f9f9;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.section-title h5 {
+    color: #f4b400;
+}
+
+.section-title p {
+    text-align: center;
+    font-size: small;
+}
+
+.divider {
+    width: 60px;
+    height: 4px;
+    background: #f4b400;
+    margin: 15px auto;
+}
+
+.divider.left {
+    margin: 10px 0;
+}
+
+
+/* CERITA KAMI */
+.story {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.story img {
+    max-width: 300px;
+}
+
+.story p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.story h2 {
+    font-size: 32px;
+}
+
+.story h5{
+    color: #f4b400;
+}
+
+.highlight {
+    background: #f4b400;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* COFFEE EXPERTISE */
+.expertise {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.expertise img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h4 {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.card p {
+    font-size: small;
+    text-align: left;
+}
+
+/* PEOPLE */
+.people {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+
+.person img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.person p {
+    color: #777;
+    font-size: small;
+}
+
+
+/* ACHIEVEMENT */
+.achievement {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.achievement img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
